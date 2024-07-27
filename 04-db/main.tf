@@ -12,7 +12,7 @@ module "db" {
   username = "root"
   port     = "3306"
 
-  vpc_security_group_ids = [data.aws_ssm_parameter.db_sg_id.value"]
+  vpc_security_group_ids = [data.aws_ssm_parameter.db_sg_id.value]
 
 
   # DB subnet group
@@ -35,7 +35,7 @@ module "db" {
 
   manage_master_user_password = false
   password = "ExpenseApp1"
-  skip_final_snapshot = false
+  skip_final_snapshot = true
 
 
   parameters = [
