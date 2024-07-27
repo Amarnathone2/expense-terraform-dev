@@ -15,5 +15,5 @@ variable "common_tags" {
 }
 
 variable "zone_name" {
-  default = ""
+  default = "csvdaws78s.online"
 }
