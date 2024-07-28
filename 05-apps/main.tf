@@ -78,7 +78,7 @@ module "records" {
       ]
     },
     {
-      name    = "" #daws78s.online
+      name    = "" #csvdaws78s.online
       type    = "A"
       ttl     = 1
       records = [

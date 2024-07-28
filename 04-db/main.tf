@@ -65,6 +65,7 @@ module "db" {
       ]
     },
   ]
+}  
 
 # create R53 record for RDS endpoint
 
@@ -84,5 +85,4 @@ module "records" {
       ]
     }
   ]
-}
 }
